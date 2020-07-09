@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20vw 20vw 10vw 10vw 20vw 20vw;
+    grid-template-rows: 10vh 40vh 40vh 10vh;
+}
+
+.container header {
+    display: grid;
+    align-items: center;
+    justify-content: left;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #472D30;
+    font-family: 'Oswald', sans-serif;
+    color: #FFE1A8;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 5vw;
+}
+
+.container nav {
+    display: grid;
+    align-items: center;
+    justify-content: right;
+}
+
+nav {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #472D30;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-right: 5vw;
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    color: #FFE1A8;
+    padding: 0 2vw 0 2vw;
+
+}
+
+.container main {
+    display: grid;
+    align-items: center;
+    justify-content: left;
+}
+
+main {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #FFE1A8;
+    padding-left: 4vw;
+}
+
+main h1 {
+    color: #472D30;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 5vh;
+    padding-right: 1.4vw;
+}
+
+main a {
+    padding: 0 0 0 0;
+}
+
+.container section {
+    display: grid;
+    align-items: center;
+    justify-content: right;
+}
+
+section {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #FFE1A8;
+}
+
+.container .box1 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #FFE1A8;
+}
+
+
+.container footer {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #FFE1A8;
+    color: #472D30;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
